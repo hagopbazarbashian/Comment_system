@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.comments {
+    margin: 20px;
+}
+
+.comment {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.comment textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.comment button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.comment button:hover {
+    background-color: #555;
+}
+
+.child-comments {
+    margin-left: 20px;
+}
